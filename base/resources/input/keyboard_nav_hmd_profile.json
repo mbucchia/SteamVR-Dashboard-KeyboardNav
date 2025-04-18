@@ -1,0 +1,17 @@
+{
+  "jsonid": "input_profile",
+  "controller_type": "keyboard_nav_hmd",
+  "input_bindingui_mode": "hmd",
+  "input_source": {
+    "/input/system": {
+      "type": "button",
+      "binding_image_point": [ 132, 75 ]
+    }
+  },
+  "default_bindings": [
+    {
+      "app_key": "openvr.component.vrcompositor",
+      "binding_url": "vrcompositor_bindings_keyboard_nav_hmd.json"
+    }
+  ]
+}

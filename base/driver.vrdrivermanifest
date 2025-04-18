@@ -1,0 +1,9 @@
+{
+	"alwaysActivate": true,
+	"name" : "keyboard_nav",
+
+	"hmd_presence" :
+	[
+		"*.*"
+	]
+}

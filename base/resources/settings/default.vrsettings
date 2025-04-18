@@ -1,0 +1,5 @@
+{
+  "driver_keyboard_nav": {
+    "loadPriority": 1000
+  }
+}
