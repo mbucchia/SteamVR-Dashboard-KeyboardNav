@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "driver_shim", "driver_shim\driver_shim.vcxproj", "{5D913C1C-E92F-4833-A253-C73CAD82E038}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0232C71A-4F88-494D-BA0D-E71EEFCB4CB4} = {0232C71A-4F88-494D-BA0D-E71EEFCB4CB4}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		.clang-format = .clang-format
+		.gitignore = .gitignore
+		tracing\Capture-ETL.bat = tracing\Capture-ETL.bat
+		base\resources\settings\default.vrsettings = base\resources\settings\default.vrsettings
+		base\driver.vrdrivermanifest = base\driver.vrdrivermanifest
+		tracing\DriverTracing.wprp = tracing\DriverTracing.wprp
+		base\resources\input\keyboard_nav_hmd_profile.json = base\resources\input\keyboard_nav_hmd_profile.json
+		LICENSE = LICENSE
+		.github\workflows\msbuild.yml = .github\workflows\msbuild.yml
+		README.md = README.md
+		base\resources\input\vrcompositor_bindings_keyboard_nav_hmd.json = base\resources\input\vrcompositor_bindings_keyboard_nav_hmd.json
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "client_utility", "client_utility\client_utility.vcxproj", "{0232C71A-4F88-494D-BA0D-E71EEFCB4CB4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D913C1C-E92F-4833-A253-C73CAD82E038}.Debug|x64.ActiveCfg = Debug|x64
+		{5D913C1C-E92F-4833-A253-C73CAD82E038}.Debug|x64.Build.0 = Debug|x64
+		{5D913C1C-E92F-4833-A253-C73CAD82E038}.Release|x64.ActiveCfg = Release|x64
+		{5D913C1C-E92F-4833-A253-C73CAD82E038}.Release|x64.Build.0 = Release|x64
+		{0232C71A-4F88-494D-BA0D-E71EEFCB4CB4}.Debug|x64.ActiveCfg = Debug|x64
+		{0232C71A-4F88-494D-BA0D-E71EEFCB4CB4}.Debug|x64.Build.0 = Debug|x64
+		{0232C71A-4F88-494D-BA0D-E71EEFCB4CB4}.Release|x64.ActiveCfg = Release|x64
+		{0232C71A-4F88-494D-BA0D-E71EEFCB4CB4}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {578423DD-D0F8-42EA-9B55-38083560A35F}
+	EndGlobalSection
+EndGlobal
