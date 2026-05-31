@@ -34,6 +34,20 @@
           "path": "/user/head/input/system"
         }
       ]
+    },
+    "/actions/lasermouse_secondary": {
+      "poses": [],
+      "sources": [
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/lasermouse_secondary/in/SwitchLaserHand"
+            }
+          },
+          "mode": "button",
+          "path": "/user/head/input/system"
+        }
+      ]
     }
   },
   "category": "steamvr_input",

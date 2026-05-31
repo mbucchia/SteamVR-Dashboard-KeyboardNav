@@ -70,7 +70,7 @@
     </Link>
     <PostBuildEvent>
       <Command>xcopy /q /e /y $(SolutionDir)\base $(SolutionDir)\bin\distribution\ &gt;nul
-xcopy /y $(TargetPath) $(SolutionDir)\bin\distribution\bin\win64 &gt;nul
+xcopy /y $(TargetPath) $(SolutionDir)\bin\distribution\bin\win64\ &gt;nul
 
 </Command>
     </PostBuildEvent>
@@ -92,7 +92,7 @@ xcopy /y $(TargetPath) $(SolutionDir)\bin\distribution\bin\win64 &gt;nul
     </Link>
     <PostBuildEvent>
       <Command>xcopy /q /e /y $(SolutionDir)\base $(SolutionDir)\bin\distribution\ &gt;nul
-xcopy /y $(TargetPath) $(SolutionDir)\bin\distribution\bin\win64 &gt;nul
+xcopy /y $(TargetPath) $(SolutionDir)\bin\distribution\bin\win64\ &gt;nul
 
 </Command>
     </PostBuildEvent>

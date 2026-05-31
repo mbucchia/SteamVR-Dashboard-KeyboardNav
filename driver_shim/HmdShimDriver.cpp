@@ -120,7 +120,7 @@ namespace {
 
             DriverLog("Hello from HmdShimDriver::UpdateThread");
             SetThreadDescription(GetCurrentThread(), L"HmdShimDriver_UpdateThread");
-
+            
             while (true) {
                 // Wait for the next time to update.
                 {
