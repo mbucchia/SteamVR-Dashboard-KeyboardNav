@@ -1,8 +1,30 @@
-# A demo of Driver Shimming with SteamVR.
+# A demo of Driver Shimming with SteamVR / Add support for SteamVR Dashboard navigation with facemouse and keyboard
 
-This program shows how to shim (extend) and existing, pre-compiled, SteamVR driver.
+This program shows how to shim (extend) and existing, pre-compiled, SteamVR driver, in this instance to add support for navigation with the facemouse and keyboard to nagivate the SteamVR Dashboard.
 
 DISCLAIMER: This software is distributed as-is, without any warranties or conditions of any kind. Use at your own risks.
+
+# User Walkthrough
+
+## Installing
+
+Get the latest build from https://github.com/mbucchia/SteamVR-Dashboard-KeyboardNav/releases/latest. Follow the instructions on that page for registering the driver.
+
+## Usage
+
+The 'Windows' key on your keyboard now has two functions:
+
+- Bring up/close the SteamVR Dashboard.
+  - Bring up the SteamVR Dashboard by pressing the 'Windows' key any time.
+  - Close the SteamVR Dashboard by looking away from the Dashboard and pressing the 'Windows' key.
+
+- A 'click' within the SteamVR Dashboard. Use the blue dot (crosshair) following your head gaze for aiming, then press the 'Windows' key to push a button or click a sub-menu item.
+
+## Troubleshooting
+
+Make sure the `keyboard_nav` driver shows up in the _Settings_ -> _Startup/Shutdown_ -> _Manage Add-ons_ menu, and is set to _On_:
+
+<img width="808" height="648" alt="image" src="https://github.com/user-attachments/assets/96afae38-934e-4bb8-81ec-91bb7fb50553" />
 
 # Developer Walkthrough
 
